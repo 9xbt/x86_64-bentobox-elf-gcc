@@ -9,8 +9,13 @@ fi
 machine=$1
 target=fixinc.sh
 
+# FIXINCLUDES HERE
+# BREAKINCLUDES
+
 # Check for special fix rules for particular targets
 case $machine in
+    *-bentobox* | \
+    *-*-bentobox* | \
     i?86-*-cygwin* | \
     *-mingw32* | \
     powerpc-*-eabisim* | \
